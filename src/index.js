@@ -13,7 +13,7 @@ const router = createBrowserRouter([{
   path: "/test",
   element: <App/>
 },{
-  path: `/product/:id`,
+  path: `test/product/:id`,
   element: <Product />,
 }]);
 root.render(

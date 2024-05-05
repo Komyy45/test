@@ -7,7 +7,7 @@ import Body from "./components/Body/Body";
 function App() {
   const [prods , setProds] = useState([]);
   useEffect( () => {
-    fetch('https://fakestoreapi.com/products')
+    fetch('https://dummyjson.com/products')
       .then(res=> res.json())
       .then((json) => setProds(json))
       .catch(err => console.error(err));
